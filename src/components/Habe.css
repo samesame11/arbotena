@@ -1,0 +1,16 @@
+.picDetail{
+    border: 2px solid transparent;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 30px;
+    width: 100%;
+    height: max-content;
+    margin-top: 6em;
+} 
+
+.text3{
+    margin-top: 6em;
+}
+
+.text4{
+    margin-top: 2em;
+}

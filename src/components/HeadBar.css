@@ -1,0 +1,87 @@
+
+.logoBrand{
+    padding-top: 6em;
+    font-size: 14px;
+}
+
+.navBar { 
+    padding-top: 5em;
+    text-align: center;
+    width: min-content;
+}
+
+.textColor {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
+.iconTablet {
+    display: none;
+}
+.radiusFAQ {
+    border-right: medium solid white;
+}
+
+.colorRegister {
+    background-color: #C7AD4A;
+}
+
+.textWrapper{
+    word-wrap: break-word;
+    max-width: 650px;
+}
+
+.text1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 7rem;
+}
+
+.text2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.button1{
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.button2{
+    margin-top: 4rem;
+    width: 100%;
+}
+
+/* Tablet View */
+@media (max-width: 768px){
+.iconTablet {
+    display: block;
+    padding-top: 6em;
+    font-size: 14px;
+    text-align: end;
+}
+.bt {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.navBar {
+    display: none;
+}
+
+.text1 {
+    font-size: 25px;
+    color: white;
+    margin-top: 9rem;
+}
+
+.text2 {
+    font-size: 15px;
+    color: white;
+}
+}

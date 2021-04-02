@@ -1,0 +1,34 @@
+.text7{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 6rem;
+    color: #9c8f1b;
+}
+
+.each-slide {
+    height: 100px;
+}
+.textRegis{
+    margin-top: 4em;
+    text-align: center;
+}
+.button4 {
+    margin-top: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+.posi {
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .text11 {
+        width: max-content;
+    }
+
+    .button4{
+        width: max-content;
+        margin-top: 4em;
+    }
+}

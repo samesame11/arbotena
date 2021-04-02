@@ -1,0 +1,61 @@
+
+.Top {
+  height: 980px;
+  background-image: url(./img/PictureHero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 769px;
+}
+
+.elip {
+  background-color: #F6F6F6F6;
+  height: 500px;
+  min-width: 769px;
+}
+
+.Unsere {
+  height: 500px;
+  background-color: white;
+  min-width: 769px;
+}
+
+.Habe {
+  height: 600px;
+  background-color: white;
+  min-width: 769px;
+}
+
+.Ent {
+  height: 1000px;
+  background-color: white;
+  min-width: 769px;
+}
+
+.Footer {
+  height: 400px;
+  background-color: #F6F6F6F6;
+  min-width: 769px;
+}
+
+
+/* Tablet View */
+@media (max-width: 768px){
+  .Top {
+    height: 980px;
+    background-image: url(./img/PictureHero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .elip {
+    background-color: white;
+    height: max-content;
+  }
+  .Unsere{
+    height: max-content;
+  }
+  .Footer{
+    height: max-content;
+  }
+}

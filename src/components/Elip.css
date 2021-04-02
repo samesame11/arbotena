@@ -1,0 +1,53 @@
+.elipDetail {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 8rem;
+}
+
+.linktext{
+    text-decoration: underline;
+    color: #C7AD4A;
+}
+.textCon{
+    margin-top: -1em;
+}
+.iconNext {
+    color: #C7AD4A;
+    margin-left: 8px;
+}
+
+.elipText {
+    display: none;
+}
+
+.elipBlock {
+    display: none;
+}
+
+.elipPro1 {
+    padding-top: 6em;
+    
+}
+
+/* Tablet View */
+@media (max-width: 768px){
+
+.elipPro1{
+    display: none;
+}
+
+.elipDetail{
+    display: none;
+}
+.elipText {
+    margin-top: 4rem;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.elipBlock {
+    display: block;
+    width: 214px;
+    height: 205;
+}
+
+}
